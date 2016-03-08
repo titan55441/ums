@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+  
+    <servlet>
+        <servlet-name>FindAllUserServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.FindAllUserServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FindUserByIdServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.FindUserByIdServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistUserServlet</servlet-name>
+        <servlet-class>com.itheima.web.servlet.RegistUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindAllUserServlet</servlet-name>
+        <url-pattern>/FindAllUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistUserServlet</servlet-name>
+        <url-pattern>/RegistUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FindUserByIdServlet</servlet-name>
+        <url-pattern>/FindUserByIdServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
