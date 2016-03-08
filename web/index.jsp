@@ -12,5 +12,6 @@
 <c:redirect url="/FindAllUserServlet"></c:redirect>
 nonononono!
 yeyeyeyeyeyes!
+haha
 </body>
 </html>
