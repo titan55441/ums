@@ -10,6 +10,6 @@
 <body>
 
 <c:redirect url="/FindAllUserServlet"></c:redirect>
-
+nonononono!
 </body>
 </html>
